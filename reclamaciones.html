@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="gl">
+
+<head>
+
+  <title>Agencia de Viajes</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+  <script type="text/javascript" src="escripito.js"></script>
+
+</head>
+
+<body class="pagina">
+
+<style>
+  .pagina{
+    background-color:black;
+    margin-right: 95px;
+    margin-left: 95px;
+    margin-top: 25px;
+    color:white;
+  }
+</style>
+
+<style>
+  .titulo{
+    color:white;
+    text-align: center;
+    font-size: 40px;
+  }
+
+</style>
+
+
+<style>
+  .dni{
+    margin-left: 30px;
+  }
+
+</style>
+
+<style>
+  .data{
+    margin-left: 17px;
+  }
+</style>
+
+<div class="container">
+    <div class="container">
+      <br>
+     <p><img src="imagenes/logo.png" class="img-fluid" alt="logo"></p>
+     
+     <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="viajes.html">Vuelos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="alojamientos.html">Alojamientos</a>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link " href="cultura.html">Visitas Culturales</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="alquiler.html">Alquiler de Vehículos</a>
+      </li>
+         
+</div>
+
+
+    </ul>
+
+    <br>
+    <br>
+
+
+ <p class="titulo">HOJA DE RECLAMACIONES</p>
+
+ <br>
+
+<form  method="post" enctype="text/plain">
+ 
+ <div class="data">
+  Fecha: <input type="date" name="fecha" size="20">
+  </div>
+
+  <br>
+
+
+  <label for="username">Nombre: </label> 
+  <input type="text" name="nombre" value="" size="25" maxlength="40"/>
+  
+
+
+  <br>
+<br> 
+   
+  
+   <label for="username">Apellido: </label> 
+  <input  type="text" name="apellidos" value="" size="25" maxlength="40"/>
+    
+<br>
+
+  <br>
+  
+
+
+<div class="dni">
+  <label for="username"> DNI: </label> 
+  <input  type="text" name="nombre" value="" size="15" maxlength="40" />
+  </div>
+
+
+ <br>
+
+
+   <label for="username">Teléfono: </label> 
+  <input  type="text" name="apellidos" value="" size="25" maxlength="40"/>
+ 
+<br>
+<br>
+
+ Seleccione el motivo(s) de su reclamación: 
+<br>
+<br>
+  <input type="Checkbox" name="problemas" value="Problemas con nuestros vuelos"/> Problemas con nuestros vuelos<br/>
+  <input type="Checkbox" name="problemas" value="Problemas con nuestros alojamientos" /> Problemas con nuestros alojamientos<br/>
+  <input type="Checkbox" name="problemas" value="Problemas con nuestras visitas culturales" /> Problemas con nuestras visitas culturales<br/>
+  <input type="Checkbox" name="problemas" value="Problemas con nuestros alquileres de vehículos" /> Problemas con nuestros alquileres de vehículos<br/>
+  <input type="Checkbox" name="problemas" value="Otros problemas" />Otros problemas <br/>
+<br>
+
+
+<input type="submit" value="Enviar">
+<input type="reset" value="Restablecer">
+
+</form>
+
+<br>
+<br>
+
+
+</body>
+
+
+</html>
